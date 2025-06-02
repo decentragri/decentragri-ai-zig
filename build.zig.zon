@@ -1,0 +1,28 @@
+.{
+    .name = .decentragri_ai_zig,
+    .version = "0.0.1",
+    .fingerprint = 0x41ffa9cc7959527,
+    .minimum_zig_version = "0.14.0",
+
+    .dependencies = .{
+        .tokamak = .{
+            .url = "https://github.com/cztomsik/tokamak/archive/refs/heads/master.tar.gz",
+            .hash = "tokamak-2.0.0-FbnSeW4vAwDjg6tUcmRFqVa9aMfVRsI13m6fUwqhZEji",
+        },
+
+        .jwt = .{
+            .url = "https://github.com/leroycep/zig-jwt/archive/refs/heads/master.tar.gz",
+            .hash = "jwt-0.0.1-HbWOu6Y-AAAazOpY5quBwgxLtHBcZxtfMn7OCim45glZ",
+        },
+        .dotenv = .{
+            .url = "https://github.com/velikoss/dotenv-zig/archive/refs/heads/main.tar.gz",
+            .hash = "dotenv-0.1.1-MkB8yOIdAACFT19qGUM9twLe9eERhKPo5R_pB3Wro8lm",
+        },
+    },
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}

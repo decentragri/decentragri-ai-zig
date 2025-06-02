@@ -1,0 +1,24 @@
+# Zig build artifacts
+.zig-cache/
+zig-out/
+
+# Compiled object files
+*.o
+*.obj
+
+# Executables
+*.exe
+*.out
+*.a
+*.so
+*.dll
+*.dylib
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+
+# VSCode settings
+.vscode/
+.env
+
